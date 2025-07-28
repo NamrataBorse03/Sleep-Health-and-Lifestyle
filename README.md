@@ -38,6 +38,37 @@ The data was analyzed to explore correlations and predictive patterns for sleep 
 - **Scikit-learn** – Machine learning (if applicable)
 - **Jupyter Notebook** – Development environment
 
+## 🧩 Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository** (or download the `.ipynb` file):
+   ```bash
+   git clone https://github.com/your-username/sleep-health-lifestyle.git
+   cd sleep-health-lifestyle
+   ```
+
+2. **Create a virtual environment (optional but recommended)**:
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows: env\Scripts\activate
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   If there's no `requirements.txt`, install manually:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+   ```
+
+4. **Run the notebook**:
+   ```bash
+   jupyter notebook
+   ```
+
 ## 📌 Key Steps
 
 1. **Data Cleaning and Preprocessing**  
@@ -70,3 +101,6 @@ The analysis demonstrates that stress level, physical activity, and lifestyle ha
 - Reduce stress through relaxation techniques.
 - Monitor daily steps and heart rate for balanced lifestyle.
 - Target awareness programs at high-risk occupations.
+
+
+
